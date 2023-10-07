@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.w{
+    width: 1200px;
+    margin: auto;
+}
+
+.header{
+  background-color:black;
+  width: 100%; 
+  height:110px;
+  align-content: center;
+  align-items: center;
+}
+
+ .logo {
+ float: left;
+ padding-left: 140px;
+ padding-top: 25px;
+ padding-right: 100px;
+ 
+}
+ p {color:#FFFFFF;font-family: sans-serif;}
+
+ .nav {
+ float:left;
+}
+ .nav ul {
+   float:left;
+   display: flex;
+   list-style: none;
+   text-align: center;
+ }
+ .nav ul li a {
+  display: block;
+  height: 110px;
+  font-size: 19px;
+  font-family:sans-serif;
+  color: white;
+  padding: 40px;
+  text-decoration: none;
+  align-items: center; 
+}
+
+ .nav ul li a :hover{
+     color: darkgray;
+ }
+
+.down1{
+    display: none;
+    position: absolute;
+    margin-top:-20px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+.down2{
+    display: none;
+    position: absolute;
+    margin-top:-25px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.down3{
+    display: none;
+    position: absolute;
+    margin-top:-25px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+
+.nav ul li:hover .down1{
+    display: block;
+}
+.nav ul li:hover .down1 ul{
+    display: block;
+}
+.nav ul li:hover .down2{
+    display: block;
+   
+    
+}
+.nav ul li:hover .down2 ul{
+    display: block;
+}
+.nav ul li:hover .down3{
+    display: block;
+   
+    
+}
+.nav ul li:hover .down3 ul{
+    display: block;
+}
+.down1 a{
+    text-decoration: none;
+    display: block;
+}
+.down2 a{
+    text-decoration: none;
+    display: block;
+}
+.down3 a{
+    text-decoration: none;
+    display: block;
+}
+.down1 ul li a{
+    color: brown;
+    padding-top: 15px;
+    max-height: 0px;
+}
+.down2 ul li a{
+    color: brown;
+    padding-top: 15px;
+    max-height: 0px;
+}
+.down3 ul li a{
+    color: brown;
+    padding-top: 15px;
+    max-height: 0px;
+}
+.down3 ul{
+    columns: 2;
+}
+.shopCar{
+    position: relative;
+    top: 33px;
+    margin-left: 100px;
+}
+
+
+
+
+
+.GET{
+    float: right;
+    position: relative;
+    text-align: center;
+    padding-top: 13px;
+    top: -15px;
+    left: -110px;
+    width: 9%;
+    height: 45%;
+    background-color: crimson;
+    color: #f9f9f9;
+}
+.GET a{
+    text-decoration: none;
+}
+
+.footer {
+    height: 450px;
+}
+.footer1{
+    height: 270px;
+    display: flex;
+    position: relative;
+    border-bottom-color:dimgrey;
+    border-bottom-width:100% ;
+    border-bottom-style: solid;
+    padding-bottom:0%;
+}
+p6{
+    color: crimson;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;position:absolute; left:43% ;top:15%;
+    
+}
+h6{
+    font-size: 70px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position:absolute; left:27% ;top:7%;
+}
+
+.footer{
+    display: inline;
+}
+
+.footer2 ul {
+      
+      display: flex;
+      list-style: none;
+      text-align: center;
+    }
+   
+.footer2 ul li a :hover{
+        color: crimson;
+    }
+   
+.footer2 ul li a {
+    display: block;
+    height: 110px;
+    font-size: 16px;
+    font-family:sans-serif;
+    color: black;
+    padding-right: 40px;
+    padding-top: 60px;
+    text-decoration: none;
+    align-items: center; 
+  }
+.footer3{
+    display: block;
+    position: relative;
+    
+    
+
+}
+p7{
+    color: crimson;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;margin-left: 50%;display: block;
+    position: absolute;top:-50px;
+    
+}
+.subs{
+    float: right;
+    position: relative;
+    text-align: center;
+    padding-top: 13px;
+    top: -60px;
+    left: -290px;
+    width: 9%;
+    height: 50px;
+    background-color: crimson;
+    color: #f9f9f9;
+    
+}
+.subs a{
+    text-decoration: none;
+    margin: auto;
+    align-items: center;
+}
+
+
+.service{
+    height:100px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+    position: relative;
+}
+.logoo {
+    padding-top: 25px;
+    padding-right: 100px;
+}
+p8{
+    color:black;
+    font-size:13px;
+}
+.serve{
+    position: absolute;
+    left: 42%;
+    top:30%;
+}
+.social{
+    position: absolute;
+    top: 25px;
+    left:75%;
+}
